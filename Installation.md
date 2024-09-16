@@ -79,60 +79,6 @@ No extra configuration is needed.
 
 The backend source code is in `src/motoko_backend`.
 
-## Typescript (code name Azle)
-
-1. Replace the `dfx.json` file:
-
-```
-cp dfx_typescript.json dfx.json
-```
-
-The backend source code is in `src/typescript_backend`.
-
-2. Install `podman`:
-
-On Ubuntu/WSL:
-
-```
-sudo apt-get install podman
-```
-
-On Mac:
-
-```
-brew install podman
-```
-
-## Rust
-
-1. Replace the `dfx.json` file:
-
-```
-cp dfx_rust.json dfx.json
-```
-
-2. Install a recent version of Rust with WebAssembly support:
-
-```
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-rustup target add wasm32-unknown-unknown
-```
-
-3. Install LLVM/Clang compiler:
-
-On Ubuntu/WSL:
-
-```
-sudo apt-get install clang
-```
-
-On Mac:
-
-```
-brew install llvm
-```
-
-The backend source code is in `src/rust_backend`.
 
 # Testing the Installation
 

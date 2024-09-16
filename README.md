@@ -10,12 +10,11 @@ The MVP will provide the following functionality:
 - **Mint skill verification results as NFTs** on the ICP blockchain.
 - **Authenticate securely** using Internet Identity and NFID.
 
-## Language Choice
+## Technology Stack
 
-You can implement this platform using one of the following languages:
-- **Motoko** (recommended for ICP)
-- Typescript (code name Azle on the IC)
-- Rust
+The platform is built using:
+- **Motoko** for the backend to handle AI-driven assessments, NFT minting, and ICP integration.
+- **React** for the frontend to allow users to interact with the platform, submit their skills, and view their results.
 
 ## Setup
 
